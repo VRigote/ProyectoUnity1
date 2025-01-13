@@ -78,7 +78,7 @@ VisualElement {
 }
 
 .boton-menu:hover {
-    background-color: rgb(7, 130, 15);
+    background-color: rgb(176, 9, 16);
     color: rgb(0, 0, 0);
     width: 105%;
     border-left-color: rgb(0, 0, 0);
