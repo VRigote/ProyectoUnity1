@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Estilo%20USS.uss?fileID=7433441132597879392&amp;guid=44a14e2f2428f12409cd1a4bac524f80&amp;type=3#Estilo USS" />
+    <ui:VisualElement name="contenedor" class="contenedor" style="flex-grow: 1;">
+        <ui:VisualElement name="izquierda" class="izquierda" style="flex-grow: 1;">
+            <ui:VisualElement name="logo" class="logo" style="flex-grow: 1;" />
+            <ui:VisualElement name="botones" class="botones" style="flex-grow: 1;">
+                <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play" class="boton-menu" />
+                <ui:Button text="CREDITS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="credits" class="boton-menu" />
+                <ui:Button text="OPTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="options" class="boton-menu" />
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit" class="boton-menu" />
+            </ui:VisualElement>
+            <ui:VisualElement name="mi-nombre" class="mi-nombre" style="flex-grow: 1;">
+                <ui:VisualElement name="logotipo" class="logotipo" style="flex-grow: 1;" />
+                <ui:Label tabindex="-1" text=" Verónica Rigote Rodríguez" parse-escape-sequences="true" display-tooltip-when-elided="true" name="nombre" class="nombre" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="derecha" class="derecha" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
